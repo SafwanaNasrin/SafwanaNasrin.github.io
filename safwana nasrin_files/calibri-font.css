@@ -1,0 +1,30 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=f4fed31f-e400-4fb7-96d5-44ef8bc44c84&fontids=6018018,6018024,6018047,6018049");
+@font-face {
+    font-family: "Calibri W05 Regular";
+    src: url("https://hiration.s3-us-west-2.amazonaws.com/Fonts/6018047/50be8057-60b0-4e2a-912a-c4b5832cbfda.woff2") format("woff2"),
+         url("Fonts/6018047/c905d629-4a94-4ec9-a6f4-3cd22619dae4.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Calibri W05 Regular";
+    src: url("https://hiration.s3-us-west-2.amazonaws.com/Fonts/6018049/843785f0-d584-4c23-b03b-50e9ccdf1236.woff2") format("woff2"),
+         url("Fonts/6018049/87748d6a-4116-47a6-bf03-513c883a8872.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Calibri W05 Regular";
+    src: url("https://hiration.s3-us-west-2.amazonaws.com/Fonts/6018018/a2b7575c-3eee-4beb-84eb-dde180e688d9.woff2") format("woff2"),
+         url("Fonts/6018018/aec0feae-b03f-4c08-a33e-c02828c74c0f.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Calibri W05 Regular";
+    src: url("https://hiration.s3-us-west-2.amazonaws.com/Fonts/6018024/6c249f7f-a62f-4658-a011-0bcfa3dcb59b.woff2") format("woff2"),
+         url("Fonts/6018024/546fc141-6f8e-4b37-a6e1-5755beac6f46.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
