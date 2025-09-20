@@ -38,39 +38,40 @@
 
 <body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column">
+  <!-- Header -->
+  <header id="header" class="header dark-background d-flex flex-column align-items-center">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
-    <div class="profile-img">
+    <div class="profile-img my-3">
       <img src="assets/img/mydp.jpeg" alt="Safwana Nasrin" class="img-fluid rounded-circle">
     </div>
 
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center mb-3">
       <h1 class="sitename">Safwana Nasrin</h1>
     </a>
 
-    <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+    <div class="social-links text-center mb-3">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
       <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
       <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="skype"><i class="bi bi-skype"></i></a>
       <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+      <ul class="list-unstyled text-center">
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
+        <li class="dropdown">
+          <a href="#"><i class="bi bi-menu-button navicon"></i> Dropdown <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul class="dropdown-menu">
             <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
+            <li class="dropdown">
+              <a href="#">Deep Dropdown <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul class="dropdown-menu">
                 <li><a href="#">Deep Dropdown 1</a></li>
                 <li><a href="#">Deep Dropdown 2</a></li>
                 <li><a href="#">Deep Dropdown 3</a></li>
@@ -86,194 +87,184 @@
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
-
   </header>
 
+  <!-- Main Content -->
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="hero" class="hero section dark-background text-center position-relative">
+      <img src="assets/img/hero-bg.jpg" alt="Hero Background" class="img-fluid w-100 position-absolute top-0 start-0" style="z-index:-1;">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container py-5" data-aos="fade-up" data-aos-delay="100">
         <h2>Safwana Nasrin</h2>
-        <p>I'm <span class="typed" data-typed-items="Cybersecurity Enthusiast, Web Developer, Cloud Computing (AWS), Networking">Cybersecurity & Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <p>
+          I'm <span class="typed" data-typed-items="Cybersecurity Enthusiast, Web Developer, Cloud Computing (AWS), Networking"></span>
+        </p>
       </div>
-
-    </section><!-- /Hero Section -->
+    </section>
 
     <!-- About Section -->
-<section id="about" class="about section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>
-      I am Safwana Nasrin, a passionate Cybersecurity Enthusiast, Web Developer, and Cloud Computing (AWS) specialist. I enjoy building secure and efficient web applications, exploring cloud solutions, and enhancing network infrastructures.
-    </p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row gy-4 justify-content-center">
-      <div class="col-lg-4">
-        <img src="assets/img/mydp.jpeg" class="img-fluid" alt="Safwana Nasrin">
-      </div>
-      <div class="col-lg-8 content">
-        <h2>Cybersecurity | Web Development | Cloud (AWS) | Networking</h2>
-        <p class="fst-italic py-3">
-          I focus on creating secure, scalable, and modern web applications, implementing cloud solutions with AWS, and optimizing networking systems for performance and reliability.
-        </p>
-        <div class="row">
-          <div class="col-lg-6">
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>30 November</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.safwananasrin.com</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7012455456</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kasaragod , India</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul>
-              
-              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor in Computer Science</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>safwananasrinnn@gmail.com</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-            </ul>
-          </div>
-        </div>
-        <p class="py-3">
-          I have hands-on experience in cybersecurity projects, web development, AWS cloud deployments, and networking. I continuously enhance my skills and enjoy solving real-world technical challenges while delivering high-quality solutions.
+    <section id="about" class="about section py-5">
+      <div class="container section-title text-center mb-4" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+          I am Safwana Nasrin, a passionate Cybersecurity Enthusiast, Web Developer, and Cloud Computing (AWS) specialist. I enjoy building secure and efficient web applications, exploring cloud solutions, and enhancing network infrastructures.
         </p>
       </div>
-    </div>
 
-  </div>
-
-</section><!-- /About Section -->
-
-   <!-- Stats Section -->
-<section id="stats" class="stats section">
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row gy-4">
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item">
-          <i class="bi bi-emoji-smile"></i>
-          <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
-          <p><strong>Happy Clients</strong> <span>Individuals & Businesses</span></p>
-        </div>
-      </div><!-- End Stats Item -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item">
-          <i class="bi bi-journal-richtext"></i>
-          <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
-          <p><strong>Projects Completed</strong> <span>Web, Cloud & Security Projects</span></p>
-        </div>
-      </div><!-- End Stats Item -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item">
-          <i class="bi bi-headset"></i>
-          <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter"></span>
-          <p><strong>Hours of Support</strong> <span>Client Assistance Worldwide</span></p>
-        </div>
-      </div><!-- End Stats Item -->
-
-      <div class="col-lg-3 col-md-6">
-        <div class="stats-item">
-          <i class="bi bi-people"></i>
-          <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-          <p><strong>Certifications</strong> <span>AWS & Cybersecurity</span></p>
-        </div>
-      </div><!-- End Stats Item -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Stats Section -->
-
-
-   <!-- Skills Section -->
-<section id="skills" class="skills section light-background">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Skills</h2>
-    <p>My core competencies in Web Development, Cybersecurity, Cloud, and Networking</p>
-  </div><!-- End Section Title -->
-
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <div class="row skills-content skills-animation">
-
-      <div class="col-lg-6">
-
-        <div class="progress">
-          <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-4 text-center">
+            <img src="assets/img/mydp.jpeg" alt="Safwana Nasrin" class="img-fluid rounded-circle">
           </div>
-        </div><!-- End Skills Item -->
-
-        <div class="progress">
-          <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-lg-8 content">
+            <h3>Cybersecurity | Web Development | Cloud (AWS) | Networking</h3>
+            <p class="fst-italic py-3">
+              I focus on creating secure, scalable, and modern web applications, implementing cloud solutions with AWS, and optimizing networking systems for performance and reliability.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> 30 November</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> www.safwananasrin.com</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> +91 7012455456</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> Kasaragod, India</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> Bachelor in Computer Science</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> safwananasrinnn@gmail.com</li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I have hands-on experience in cybersecurity projects, web development, AWS cloud deployments, and networking. I continuously enhance my skills and enjoy solving real-world technical challenges while delivering high-quality solutions.
+            </p>
           </div>
-        </div><!-- End Skills Item -->
+        </div>
+      </div>
+    </section>
 
-        <div class="progress">
-          <span class="skill"><span>JavaScript (basic)</span> <i class="val">70%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+    <!-- Stats Section -->
+    <section id="stats" class="stats section py-5 dark-background text-center">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong></p>
+            </div>
           </div>
-        </div><!-- End Skills Item -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects Completed</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours of Support</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Certifications</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills section py-5 light-background">
+      <div class="container section-title text-center mb-4" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>My core competencies in Web Development, Cybersecurity, Cloud, and Networking</p>
       </div>
 
-      <div class="col-lg-6">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 skills-content">
 
-        <div class="progress">
-          <span class="skill"><span>PHP</span> <i class="val">75%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-lg-6">
+            <div class="progress mb-3">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:100%"></div>
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <span class="skill">JavaScript (basic) <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:70%"></div>
+              </div>
+            </div>
           </div>
-        </div><!-- End Skills Item -->
 
-        <div class="progress">
-          <span class="skill"><span>WordPress / CMS</span> <i class="val">90%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-lg-6">
+            <div class="progress mb-3">
+              <span class="skill">PHP <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:75%"></div>
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <span class="skill">WordPress / CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:90%"></div>
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <span class="skill">Cybersecurity <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:85%"></div>
+              </div>
+            </div>
+            <div class="progress mb-3">
+              <span class="skill">AWS Cloud & Networking <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" style="width:70%"></div>
+              </div>
+            </div>
           </div>
-        </div><!-- End Skills Item -->
 
-        <div class="progress">
-          <span class="skill"><span>Cybersecurity</span> <i class="val">85%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div><!-- End Skills Item -->
-
-        <div class="progress">
-          <span class="skill"><span>AWS Cloud & Networking</span> <i class="val">70%</i></span>
-          <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div><!-- End Skills Item -->
-
+        </div>
       </div>
+    </section>
 
-    </div>
+  </main>
 
-  </div>
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const typedElements = document.querySelectorAll('.typed');
+      typedElements.forEach(el => {
+        new Typed(el, {
+          strings: el.getAttribute('data-typed-items').split(','),
+          typeSpeed: 50,
+          backSpeed: 25,
+          backDelay: 2000,
+          loop: true
+        });
+      });
+    });
+  </script>
 
-</section><!-- /Skills Section -->
+</body>
 
 
     <!-- Resume Section -->
